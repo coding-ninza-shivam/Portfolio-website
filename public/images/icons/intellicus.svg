@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="intelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0084FF" />
+      <stop offset="100%" stop-color="#004BB7" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A00" />
+      <stop offset="100%" stop-color="#E55100" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle/shield subtle glow -->
+  <rect x="4" y="4" width="40" height="40" rx="10" fill="#0D1B2A" stroke="#1E3A8A" stroke-width="1.5" />
+  
+  <!-- BI Analytics Bar 1 -->
+  <rect x="10" y="24" width="6" height="14" rx="2" fill="url(#intelGrad)" />
+  <!-- BI Analytics Bar 2 -->
+  <rect x="19" y="16" width="6" height="22" rx="2" fill="url(#intelGrad)" />
+  <!-- BI Analytics Bar 3 -->
+  <rect x="28" y="10" width="6" height="28" rx="2" fill="url(#orangeGrad)" />
+  
+  <!-- Predictive trend line and intelligence node -->
+  <path d="M13 22 L22 14 L31 8 L37 12" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
+  <!-- Nodes -->
+  <circle cx="13" cy="22" r="2" fill="#FFFFFF" />
+  <circle cx="22" cy="14" r="2" fill="#FFFFFF" />
+  <circle cx="31" cy="8" r="2.5" fill="#FFB74D" />
+</svg>

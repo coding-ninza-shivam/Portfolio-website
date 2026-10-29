@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="tkWin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="pyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="pyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+  </defs>
+  <!-- Window frame -->
+  <rect x="4" y="6" width="40" height="36" rx="6" fill="url(#tkWin)" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Window titlebar -->
+  <path d="M4 12 C4 8.686 6.686 6 10 6 L38 6 C41.314 6 44 8.686 44 12 L44 15 L4 15 Z" fill="#1E293B" />
+  <line x1="4" y1="15" x2="44" y2="15" stroke="#334155" stroke-width="1" />
+  
+  <!-- Window buttons -->
+  <circle cx="9" cy="10.5" r="1.8" fill="#EF4444" />
+  <circle cx="14" cy="10.5" r="1.8" fill="#F59E0B" />
+  <circle cx="19" cy="10.5" r="1.8" fill="#10B981" />
+  
+  <!-- GUI Elements inside Window -->
+  <!-- Sidebar -->
+  <rect x="8" y="19" width="8" height="19" rx="2" fill="#334155" opacity="0.6" />
+  
+  <!-- Content cards/widgets -->
+  <rect x="19" y="19" width="21" height="8" rx="2" fill="url(#pyBlue)" opacity="0.9" />
+  <!-- Text line placeholder -->
+  <rect x="22" y="22" width="10" height="2" rx="1" fill="#FFFFFF" />
+  
+  <!-- GUI Button (Python Yellow accent) -->
+  <rect x="19" y="29" width="12" height="9" rx="2" fill="url(#pyYellow)" />
+  <rect x="22" y="32.5" width="6" height="2" rx="1" fill="#1E293B" />
+</svg>

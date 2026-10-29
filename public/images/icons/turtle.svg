@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="turtleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="shellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Flippers & Head (Limbs) -->
+  <!-- Head -->
+  <ellipse cx="24" cy="9" rx="4" ry="5" fill="url(#turtleGrad)" />
+  <!-- Tail -->
+  <polygon points="24,42 22,37 26,37" fill="url(#turtleGrad)" />
+  <!-- Front Left Flipper -->
+  <ellipse cx="12" cy="16" rx="6" ry="3.5" transform="rotate(-35 12 16)" fill="url(#turtleGrad)" />
+  <!-- Front Right Flipper -->
+  <ellipse cx="36" cy="16" rx="6" ry="3.5" transform="rotate(35 36 16)" fill="url(#turtleGrad)" />
+  <!-- Back Left Flipper -->
+  <ellipse cx="13" cy="33" rx="5" ry="3" transform="rotate(30 13 33)" fill="url(#turtleGrad)" />
+  <!-- Back Right Flipper -->
+  <ellipse cx="35" cy="33" rx="5" ry="3" transform="rotate(-30 35 33)" fill="url(#turtleGrad)" />
+
+  <!-- Main Shell Body -->
+  <ellipse cx="24" cy="25" rx="14" ry="16" fill="url(#shellGrad)" stroke="#064E3B" stroke-width="1.5" />
+  
+  <!-- Geometric Shell Patterns -->
+  <!-- Center Hexagon -->
+  <polygon points="24,17 29,20 29,26 24,29 19,26 19,20" fill="none" stroke="#064E3B" stroke-width="1.5" />
+  <!-- Bottom Hexagon -->
+  <polygon points="24,29 28,32 28,36 24,39 20,36 20,32" fill="none" stroke="#064E3B" stroke-width="1.2" />
+  <!-- Radiating Lines -->
+  <line x1="24" y1="17" x2="24" y2="10" stroke="#064E3B" stroke-width="1.2" />
+  <line x1="29" y1="20" x2="36" y2="16" stroke="#064E3B" stroke-width="1.2" />
+  <line x1="29" y1="26" x2="37" y2="28" stroke="#064E3B" stroke-width="1.2" />
+  <line x1="19" y1="20" x2="12" y2="16" stroke="#064E3B" stroke-width="1.2" />
+  <line x1="19" y1="26" x2="11" y2="28" stroke="#064E3B" stroke-width="1.2" />
+</svg>
