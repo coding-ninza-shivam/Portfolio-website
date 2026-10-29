@@ -12,7 +12,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "I am an undergraduate student at the Indian Institute of Technology Patna pursuing my Bachelor's degree in Computer Science and Data Science. I build intelligent systems, automated workflows, and data-driven applications. My core expertise spans Machine Learning, Deep Learning, NLP, and Business Intelligence, backed by a strong foundation in Python, FastAPI, MSSQL, Docker, and n8n automation. Currently building next-gen AI analytics platforms and intelligent systems. I have a deep passion for workflow automation and building production-ready tech solutions. Code is the engine, AI is the intelligence."
+        description: "I am an undergraduate student at the Indian Institute of Technology Patna pursuing my Bachelor's degree in Machine Learning and Data Science. I build intelligent systems, automated workflows, and data-driven applications. My core expertise spans Machine Learning, Deep Learning, NLP, and Business Intelligence, backed by a strong foundation in Python, FastAPI, MSSQL, Docker, and n8n automation. Currently building next-gen AI analytics platforms and intelligent systems. I have a deep passion for workflow automation and building production-ready tech solutions. Code is the engine, AI is the intelligence."
     },
     experiences: [
         {
@@ -60,7 +60,7 @@ export const config = {
     ],
     education: [
         {
-            degree: "Bachelor of Science (BS) in Computer Science & Data Analytics",
+            degree: "Bachelors in Machine Learning and Data Science",
             institution: "Indian Institute of Technology Patna (IIT Patna)",
             cpi: "CPI: 9.10 / 10.0",
             period: "2024 – 2028",
